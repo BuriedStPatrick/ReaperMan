@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaperMan", "ReaperMan.Cli\ReaperMan.Cli.csproj", "{87422DD7-5561-4B04-871B-325C72312F47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaperMan.Logging", "ReaperMan.Logging\ReaperMan.Logging.csproj", "{3A1BDF67-3B09-459B-8BC8-F8D80E31DCE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaperMan.Core", "ReaperMan.Core\ReaperMan.Core.csproj", "{02746348-6714-4EA8-BC38-28EC5F52EB71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D4741D1-9D7C-4A7E-8CE7-BE2858D9C71A}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87422DD7-5561-4B04-871B-325C72312F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87422DD7-5561-4B04-871B-325C72312F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87422DD7-5561-4B04-871B-325C72312F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87422DD7-5561-4B04-871B-325C72312F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1BDF67-3B09-459B-8BC8-F8D80E31DCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1BDF67-3B09-459B-8BC8-F8D80E31DCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1BDF67-3B09-459B-8BC8-F8D80E31DCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1BDF67-3B09-459B-8BC8-F8D80E31DCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02746348-6714-4EA8-BC38-28EC5F52EB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02746348-6714-4EA8-BC38-28EC5F52EB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02746348-6714-4EA8-BC38-28EC5F52EB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02746348-6714-4EA8-BC38-28EC5F52EB71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

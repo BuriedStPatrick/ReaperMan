@@ -1,0 +1,6 @@
+Serilog:
+  MinimumLevel: Debug
+  Enrich:
+    - FromLogContext
+  Properties:
+    Application: ReaperMan - Debug

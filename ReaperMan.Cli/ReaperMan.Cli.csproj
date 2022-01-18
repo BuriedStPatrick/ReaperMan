@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
+        <AssemblyName>reaperman</AssemblyName>
+        <RootNamespace>ReaperMan.Cli</RootNamespace>
+        <ProductVersion>0.0.1-alpha</ProductVersion>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <None Update="reaper.yaml">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="reaper.yaml">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.CommandLine" Version="2.0.0-beta2.21617.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\ReaperMan.Handlers\ReaperMan.Handlers.csproj" />
+        <ProjectReference Include="..\ReaperMan.Logging\ReaperMan.Logging.csproj" />
+    </ItemGroup>
+
+</Project>
